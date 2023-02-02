@@ -1,6 +1,8 @@
 void main() {
   final f1 = Future(info);
-  f1.then((value) => print(value)).catchError((Error) => print(Error));
+  f1
+      .then((value) => print('value  =  $value '))
+      .catchError((Error) => print('Error  =  $Error'));
 
   print("task 1");
 }
@@ -11,5 +13,5 @@ double info() {
 
 // OUTPOUT
 // task 1
-// FormatException: Invalid double
+// Error  =  FormatException: Invalid double
 // 54ff
