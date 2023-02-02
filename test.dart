@@ -11,4 +11,5 @@ double info() {
 
 // OUTPOUT
 // task 1
-// 1000.0
+// FormatException: Invalid double
+// 54ff
