@@ -6,7 +6,7 @@ void main() {
 }
 
 double info() {
-  return 1000.0;
+  return double.parse("54");
 }
 
 // OUTPOUT
