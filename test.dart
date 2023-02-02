@@ -1,5 +1,5 @@
 void main() {
-  final f1 = Future(info);
+  final f1 = Future(info).then((value) => print(value));
 
   print("task 1");
 }
@@ -10,3 +10,4 @@ double info() {
 
 // OUTPOUT
 // task 1
+// 1000.0
