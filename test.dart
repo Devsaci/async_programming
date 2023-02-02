@@ -1,9 +1,11 @@
 void main() {
+  // first Constroctor
   final f1 = Future(info);
   f1
       .then((value) => print('value info  =  $value '))
       .catchError((Error) => print('Error info  =  $Error'));
 
+  // second Constroctor
   final f2 = Future.value(123);
   f2.then((value) => print(value));
 
@@ -15,7 +17,6 @@ double info() {
 }
 
 // OUTPOUT
-
 
 // task 1
 // 123
